@@ -4,13 +4,17 @@ import os
 import time
 import json
 
-API_URL = "https://qa.siffletdata.com/api/v1/rules/_all-as-code"
+
+TENANT = "<target tenant>"
+TOKEN = "<your token>"
+
+API_URL = f"https://{TENANT}.siffletdata.com/api/v1/rules/_all-as-code"
 OUTPUT_DIR = "monitors_as_code"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 headers = {
-    "Authorization": "Bearer <Token>",
+    "Authorization": f"Bearer {TOKEN}",
     "Accept": "application/x-yaml"
 }
 
