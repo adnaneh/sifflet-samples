@@ -10,7 +10,7 @@ OUTPUT_DIR = "monitors_as_code"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 headers = {
-    "Authorization": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI5ZDk0YmMyYS0zNzdhLTQyODUtYjAwYS0zODIyNmUyMTlmNGEiLCJpc3MiOiJBY2Nlc3NUb2tlblNlcnZpY2UiLCJleHAiOjE4MDY4MzUyMzYsImF1dGhvcml0aWVzIjoiQWRtaW4ifQ.BzgTPm4LU4EUCnENeYaaSqbVkMuLj3oU5ubLGUV5352KSB-8RT7QKw6XiH2Opta_dUmRiFd0P6MYoRIthpNLfw",
+    "Authorization": "Bearer <Token>",
     "Accept": "application/x-yaml"
 }
 
